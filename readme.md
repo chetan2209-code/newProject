@@ -1,3 +1,4 @@
-# Like Button Project
+# YouTube Like Button Project
 
 this is my second Web Development project I build a functional **Like Button**.
+In this project I used html, css, and Javascript
