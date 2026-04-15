@@ -22,6 +22,30 @@ button{
     cursor: pointer;
     transition: 0.3s;
 }
+#likeBtn {
+    background: none;
+    border: none;
+    cursor: pointer;
+    outline: none;
+    transition: transform 0.2s;
+}
+
+#likeIcon {
+    width: 100px;
+    height: 100px;
+    fill: #606060;
+    transition: all 0.3s ease;
+}
+
+
+.liked #likeIcon {
+    fill: #065fd4; 
+    filter: drop-shadow(0 0 8px rgba(6, 95, 212, 0.6));
+}
+
+#likeBtn:active {
+    transform: scale(1.2);
+}
 
 button:hover{
     background-color: #ccc;
