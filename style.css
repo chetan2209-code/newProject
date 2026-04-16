@@ -22,12 +22,16 @@ button{
     cursor: pointer;
     transition: 0.3s;
 }
+#likeBtn:active{
+    transform: scale(0.8);
+    transition: 0.1s;
+}
 #likeBtn {
     background: none;
     border: none;
     cursor: pointer;
     outline: none;
-    transition: transform 0.2s;
+    transition: transform 0.2s cubic-bezier(0.175, 0.885, 0.32, 1.275);
 }
 
 #likeIcon {
@@ -40,7 +44,8 @@ button{
 
 .liked #likeIcon {
     fill: #065fd4; 
-    filter: drop-shadow(0 0 8px rgba(6, 95, 212, 0.6));
+    filter: drop-shadow(0 0 12px #065fd4);
+    transform: scale(1.2);
 }
 
 #likeBtn:active {
@@ -48,7 +53,7 @@ button{
 }
 
 button:hover{
-    background-color: #ccc;
+    background-color: #acb;
 }
 
 #likeCount{
