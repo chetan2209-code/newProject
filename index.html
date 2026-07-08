@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div class="container">
+    <!-- <div class="container">
          <button id="likeBtn">
     <svg id="likeIcon" viewBox="0 0 24 24" width="24" height="24">
         <path d="M1 21h4V9H1v12zm22-11c0-1.1-.9-2-2-2h-6.31l.95-4.57.03-.32c0-.41-.17-.79-.44-1.06L14.17 1 7.59 7.59C7.22 7.95 7 8.45 7 9v10c0 1.1.9 2 2 2h9c.83 0 1.54-.5 1.84-1.22l3.02-7.05c.09-.23.14-.47.14-.73v-2z"></path>
@@ -15,7 +15,26 @@
 </button>
 
         <span id="likeCount">0</span>
+    </div> -->
+    <div class="container">
+    <div class="btn-group">
+        <button id="likeBtn">
+            <svg id="likeIcon" viewBox="0 0 24 24" width="24" height="24">
+                <path d="M1 21h4V9H1v12zm22-11c0-1.1-.9-2-2-2h-6.31l.95-4.57.03-.32c0-.41-.17-.79-.44-1.06L14.17 1 7.59 7.59C7.22 7.95 7 8.45 7 9v10c0 1.1.9 2 2 2h9c.75 0 1.41-.41 1.76-1.01l3.14-7.34c.06-.16.1-.33.1-.52V10z"/>
+            </svg>
+        </button>
+        <span id="likeCount">0</span>
     </div>
+
+    <div class="btn-group">
+        <button id="dislikeBtn">
+            <svg id="dislikeIcon" viewBox="0 0 24 24" width="24" height="24">
+                <path d="M23 3h-4v12h4V3zm-22 11c0 1.1.9 2 2 2h6.31l-.95 4.57-.03.32c0 .41.17.79.44 1.06L9.83 23l6.58-6.59c.37-.36.59-.86.59-1.41V5c0-1.1-.9-2-2-2H6c-.75 0-1.41.41-1.76 1.01L1.1 11.35c-.06.16-.1.33-.1.52v1.13z"/>
+            </svg>
+        </button>
+        <span id="dislikeCount">0</span>
+    </div>
+</div>
 
 
 </body>
