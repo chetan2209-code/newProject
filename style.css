@@ -98,7 +98,7 @@ button:active {
 /* Liked Active State (Blue Effect) */
 .liked #likeIcon {
     fill: #065fd4;
-    filter: drop-shadow(0 0 12px #065fd4);
+    filter: drop-shadow(0 0 12px #0e67dc);
     transform: scale(1.1);
 }
 
