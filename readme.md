@@ -2,7 +2,7 @@
 
 this is my second Web Development project I build a functional **Like Button**.
 
-Project updated with blue glow effect.
+Project updated with **Dislike Button**.
 
 #live link:- https://chetan2209-code.github.io/Like-button/
 
