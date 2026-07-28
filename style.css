@@ -8,63 +8,11 @@ body{
     align-items: center;
     background-color: #2f2f2f;
 }
-
-/* .container{
-    text-align: center;
-}
-
-button{
-    padding: 10px 20px;
-    font-size: 18px;
-    border: none;
-    border-radius: 8px;
-    background-color: #ddd;
-    cursor: pointer;
-    transition: 0.3s;
-}
-#likeBtn:active{
-    transform: scale(0.8);
-    transition: 0.1s;
-}
-#likeBtn {
-    background: none;
-    border: none;
-    cursor: pointer;
-    outline: none;
-    transition: transform 0.2s cubic-bezier(0.175, 0.885, 0.32, 1.275);
-}
-
-#likeIcon {
-    width: 100px;
-    height: 100px;
-    fill: #606060;
-    transition: all 0.3s ease;
-}
-
-
-.liked #likeIcon {
-    fill: #065fd4; 
-    filter: drop-shadow(0 0 12px #065fd4);
-    transform: scale(1.2);
-}
-
-#likeBtn:active {
-    transform: scale(1.2);
-}
-
-button:hover{
-    background-color: #acb;
-}
-
-#likeCount{
-    margin-left: 10px;
-    font-size: 18px;
-}
- */
 .container {
     display: flex;
     gap: 30px; /* Dono buttons ke beech ka gap */
     text-align: center;
+    background-color: rgb(104, 101, 101);
 }
 
 .btn-group {
@@ -91,7 +39,7 @@ button:active {
 #likeIcon {
     width: 80px;
     height: 80px;
-    fill: #606060;
+    fill: #fffcfc;
     transition: all 0.3s ease;
 }
 
@@ -100,13 +48,15 @@ button:active {
     fill: #065fd4;
     filter: drop-shadow(0 0 12px #0e67dc);
     transform: scale(1.1);
+    animation: forwards;
+    animation-delay: 0.4s;
 }
 
 /* Dislike Icon Default State */
 #dislikeIcon {
     width: 80px;
     height: 80px;
-    fill: #606060;
+    fill: #ffffff;
     transition: all 0.3s ease;
 }
 
