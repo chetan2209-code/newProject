@@ -7,8 +7,6 @@ Project updated with blue glow effect.
 #live link:- https://chetan2209-code.github.io/Like-button/
 
 # features used:-
-
-# HTML
-# CSS
-# JavaScript
-
+- HTML5
+- CSS3
+- JAVASCRIPT
